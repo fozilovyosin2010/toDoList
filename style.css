@@ -1,0 +1,122 @@
+*:not(dialog, button, input) {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 10px 10%;
+  border-bottom: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.header .container1 input,
+.header .container1 select {
+  width: 40%;
+}
+.header .container1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+input,
+select {
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+#root {
+  padding: 10px;
+}
+
+#root .sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#root .block2 {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#root .sec button:last-child,
+.btnChange {
+  width: 50%;
+  background: blue;
+}
+#root .sec button:first-child,
+.btnClose,
+.btnNo {
+  width: 50%;
+  background: red;
+}
+
+#root .btnSec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 100%;
+}
+
+.btnEdit {
+  background: blue;
+}
+
+#root .btnAdd {
+  width: 100%;
+  background: blue;
+}
+
+.btnYes {
+  width: 50%;
+  background: green;
+}
+.delModalBlock {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.btnSec {
+  padding: 10px 0 5px;
+  display: flex;
+  justify-content: center;
+}
+.btnOpenAddModal {
+  width: 50%;
+  background: blue;
+}
+.addBlock {
+  display: flex;
+  gap: 10px;
+}
+.btnCloseAdd {
+  width: 50%;
+  background: red;
+}
+.btnAdd {
+  background: blue;
+  width: 50%;
+}
+.add_sec2 {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+.block2 button {
+  background: blue;
+}
+dialog {
+  border: none;
+}
